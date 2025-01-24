@@ -157,4 +157,5 @@ void haptic_core_set_rotation(struct haptic_core* core, const s_haptic_core_whee
             ginfo("wheel lock=%d\n", rotation->rotation);
         }
     }
+    core->rotationTweaks = *rotation;
 }
